@@ -157,9 +157,11 @@ Potential future improvements include:
 
 ## 12. Demonstration
 
-A demonstration should show the circuit running, sensor readings appearing in the Serial Monitor, and the warning LED responding to temperature changes.
+The animation below demonstrates the Embedded Sensor Monitoring System's temperature-monitoring functionality and LED warning behavior.
 
-See [`media/demonstration.gif`](media/demonstration.gif) when an actual simulation recording is available.
+[`media/demonstration.gif`](media/demonstration.gif)
+
+The system reads temperature and humidity using a DHT22 sensor. When the temperature reaches or exceeds the configured threshold of 30°C, the warning LED turns on. Below this threshold, the LED remains off.
 
 ## 13. Author
 
